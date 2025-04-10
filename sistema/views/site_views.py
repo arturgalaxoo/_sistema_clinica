@@ -1,0 +1,25 @@
+from django.shortcuts import render
+
+# Aqui fica a primeira view 
+def index(request):
+    return render(
+        request,
+        'global/base.html'
+    )
+
+def teste(request):
+
+    return render(
+        request,
+        'global/teste.html',
+    )
+
+def teste(request):
+
+    return render(
+        request,
+        'global/arturgalaxo.html'
+    )
+
+# REQUEST - RESPONSE - RENDER
+
